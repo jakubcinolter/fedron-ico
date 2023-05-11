@@ -20,7 +20,7 @@ interface ERC20Interface {
 
 
 // The Cryptos Token Contract
-contract Cryptos is ERC20Interface{
+contract Fedron is ERC20Interface{
     string public name = "Fedron";
     string public symbol = "FDRN";
     uint public decimals = 0;
