@@ -32,7 +32,7 @@ This contract implements the ERC20Interface and adds the following functionality
 - **transferFrom(address from, address to, uint tokens)** allows the spender to transfer tokens from the specified address.
 
 ### FedronICO
-This contract extends the Fedron contract and adds an ICO functionality. It includes the following functions:
+This contract extends the Fedron contract and adds an ICO functionality. The ICO allows investors to purchase FDRN tokens by sending Ether to the ICO contract.  It includes the following functions:
 
 - **admin** is the address that manages the ICO.
 - **deposit** is the address where the ICO funds will be deposited.
