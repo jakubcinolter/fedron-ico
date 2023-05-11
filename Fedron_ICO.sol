@@ -86,7 +86,7 @@ contract Fedron is ERC20Interface{
 }
 
 
-contract CryptosICO is Cryptos{
+contract FedronICO is Fedron{
     address public admin;
     address payable public deposit;
     uint tokenPrice = 0.001 ether;  // 1 ETH = 1000 CRTP, 1 CRPT = 0.001
