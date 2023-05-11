@@ -2,9 +2,9 @@
 This is the smart contract for the FDRN token, a meme token created on the Ethereum blockchain.
 
 ## Token Information
-Token Name: Fedron
-Token Symbol: FDRN
-Decimals: 0
+Token Name: Fedron <br>
+Token Symbol: FDRN <br>
+Decimals: 0 <br>
 Total Supply: 8,000,000
 
 ## Contract Overview
