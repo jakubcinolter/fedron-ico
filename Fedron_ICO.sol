@@ -21,8 +21,8 @@ interface ERC20Interface {
 
 // The Cryptos Token Contract
 contract Cryptos is ERC20Interface{
-    string public name = "Cryptos";
-    string public symbol = "CRPT";
+    string public name = "Fedron";
+    string public symbol = "FDRN";
     uint public decimals = 0;
     uint public override totalSupply;
     
@@ -35,7 +35,7 @@ contract Cryptos is ERC20Interface{
     
     
     constructor(){
-        totalSupply = 1000000;
+        totalSupply = 8000000;
         founder = msg.sender;
         balances[founder] = totalSupply;
     }
